@@ -2,23 +2,83 @@
 <html>
 <head>
   <title>Chealsea</title>
-  <meta charset="urf-utf-8">
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin: 0;
+  }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1{
+      font-size: 50px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 30px;
+    }
+    #list{
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 50px;
+      border-right: 1px solid gray;
+      width: 120px;
+      padding: 20px;
+      margin: 0;
+      padding-left: 15px;
+    }
+    img{
+      margin: 0px auto;
+      padding-bottom: 20px;
+      width: 300px;
+      height: 300px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #article{
+      padding: 20px;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      #list{
+        border-right: none;
+      }
+      h1{
+        border-bottom: none;
+      }
+      img{
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>맨체스터 시티 FC</h1>
+  <div id="grid">
+    <div id="list">
+  <h3><a href="index.html">프리미어 리그</a></h3>
+  <ol>
+    <li><a href="2.Manchester United.html">맨유</a></li>
+    <li><a href="3.Arsenal.html">아스날</a></li>
+    <li><a href="4.Chealsea.html">첼시</a></li>
+    <li><a href="5.Liverpool.html">리버풀</a></li>
+    <li><a href="6.Manchester City.html">맨시티</a></li>
+    <li><a href="7.Tottenham.html">토트넘</a></li>
+  </ol>
+</div>
+    <div id="article">
     <img src="Mancheste City logo 1.png" width="30%">
     <p>영국 잉글랜드 <a href="index.html">프리미어 리그</a>의 프로 축구 클럽. 연고지는 맨체스터. 홈 구장은 에티하드 스타디움.</p>
 
     <p>1880년 세인트 마크스라는 이름으로 창단하여 1887년 아드윅 AFC로 바꿨다가 1894년에 맨체스터 시티로 처음 시작하게 되었다.</p>
 
     <p>만수르 자본의 유입 후 2010년대 화려한 전성기를 구가했고 여전히 막강한 위력을 뽐내며 이젠 구단의 최종 목표에 도전하는 유럽에서 손에 꼽히는 강팀이자 빅클럽이 되었다.</p>
-    <a href="index.html">프리미어 리그</a>
-    <ol>
-      <li><a href="2.Manchester United.html">맨유</a></li>
-      <li><a href="3.Arsenal.html">아스날</a></li>
-      <li><a href="4.Chealsea.html">첼시</a></li>
-      <li><a href="5.Liverpool.html">리버풀</a></li>
-      <li><a href="6.Manchester City.html">맨시티</a></li>
-      <li><a href="7.Tottenham.html">토트넘</a></li>
-    </ol>
+  </div>
+</div>
   </body>
+  </html>

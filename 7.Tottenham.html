@@ -2,23 +2,83 @@
 <html>
 <head>
   <title>Tottenham</title>
-  <meta charset="urf-utf-8">
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin: 0;
+  }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1{
+      font-size: 50px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 30px;
+    }
+    #list{
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 50px;
+      border-right: 1px solid gray;
+      width: 120px;
+      padding: 20px;
+      margin: 0;
+      padding-left: 15px;
+    }
+    img{
+      margin: 0px auto;
+      padding-bottom: 20px;
+      width: 300px;
+      height: 300px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #article{
+      padding: 20px;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      #list{
+        border-right: none;
+      }
+      h1{
+        border-bottom: none;
+      }
+      img{
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>토트넘 FC</h1>
+  <div id="grid">
+    <div id="list">
+  <h3><a href="index.html">프리미어 리그</a></h3>
+  <ol>
+    <li><a href="2.Manchester United.html">맨유</a></li>
+    <li><a href="3.Arsenal.html">아스날</a></li>
+    <li><a href="4.Chealsea.html">첼시</a></li>
+    <li><a href="5.Liverpool.html">리버풀</a></li>
+    <li><a href="6.Manchester City.html">맨시티</a></li>
+    <li><a href="7.Tottenham.html">토트넘</a></li>
+  </ol>
+</div>
+<div id="article">
     <img src="Tottenham logo 1.png" width="30%">
     <p>영국 잉글랜드 <a href="index.html">프리미어 리그</a>의 프로 축구 클럽. 연고지는 런던, 홈 구장은 토트넘 홋스퍼 스타디움이다.</p>
 
     <p>영국 클럽 최초의 유럽 대항전 우승, 20세기 영국 최초의 <a href="index.html">프리미어 리그</a>, FA컵(잉글랜드) 더블 달성팀, UEFA 유로파 리그 초대 우승 클럽이다. 애칭은 스퍼스(Spurs). 1882년 창단되었으며, 토트넘에 소재하고 있는 화이트 하트 레인을 2017년 5월 14일까지 홈구장으로 사용했다. 이후 2019년 4월 3일부터 같은 자리에 세워진 토트넘 홋스퍼 스타디움을 새로운 홈구장으로 사용하고 있다.</p>
 
-    <p><a href="index.html">프리미어 리그</a> 출범 이후 한 번도 강등되지 않은 6개 팀들 중 하나다. <a href="index.html">프리미어 리그</a> 최고 성적은 2016-17 시즌 준우승이며, UEFA 챔피언스 리그 최고 성적은 2018-19 시즌의 준우승이다.</p>
-    <a href="index.html">프리미어 리그</a>
-    <ol>
-      <li><a href="2.Manchester United.html">맨유</a></li>
-      <li><a href="3.Arsenal.html">아스날</a></li>
-      <li><a href="4.Chealsea.html">첼시</a></li>
-      <li><a href="5.Liverpool.html">리버풀</a></li>
-      <li><a href="6.Manchester City.html">맨시티</a></li>
-      <li><a href="7.Tottenham.html">토트넘</a></li>
-    </ol>
+    <a href="index.html">프리미어 리그</a> 출범 이후 한 번도 강등되지 않은 6개 팀들 중 하나다. <a href="index.html">프리미어 리그</a> 최고 성적은 2016-17 시즌 준우승이며, UEFA 챔피언스 리그 최고 성적은 2018-19 시즌의 준우승이다.</p>
+  </div>
+</div>
   </body>
+</html>
